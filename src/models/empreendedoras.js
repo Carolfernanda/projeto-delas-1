@@ -12,7 +12,7 @@ const empreendedoraSchema = new mongoose.Schema(
         site: { type: String },
         whatsapp: { type: String, required: true },
         email: { type: String, required: true },
-        nicho: { type: String,required: true },
+        nicho: { type: Array,required: true },
         categoria: { type: String, required: true },
         endereco: { type: Object, required: true },
         descricao: { type: String, required: true },

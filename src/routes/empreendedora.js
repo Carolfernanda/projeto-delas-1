@@ -1,7 +1,9 @@
 const express = require("express")
-const controller = require ("../controllers/empreendedoraController");
+const EmpreendedoraController = require ("../controllers/empreendedoraController");
 
 const router = express.Router();
 
-router.get ("/", controller.getAllEmpreendedoras);
-router.post("/", controller.createEmpreendedoras);
+router.get ("/", EmpreendedoraController.getAllEmpreendedoras);
+router.post("/", EmpreendedoraController.createEmpreendedoras);
+
+module.exports = router;
