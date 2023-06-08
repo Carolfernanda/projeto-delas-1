@@ -9,7 +9,7 @@ const app = express ();
 app.use (express.json());
 app.use("/", index);
 app.use("/empreendedoras", empreendedoras);
-app.use("./clientes", clientes);
+app.use("/clientes", clientes);
 
 
 db.on("error", console.log.bind(console, 'Erro de conexão'))

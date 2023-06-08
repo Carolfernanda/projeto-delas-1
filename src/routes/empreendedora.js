@@ -11,4 +11,5 @@ router.get("/:id", EmpreendedoraController.getEmpreendedoraById)
 router.get("/:id", EmpreendedoraController.getByEmpreendimento)
 
 
+
 module.exports = router;
