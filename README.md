@@ -106,17 +106,8 @@ Os clientes também podem criar um perfil na plataforma, fornecendo seus dados p
 
 
 <br>
-<br>
 
-<h1 align="center">
 
-<p align="center">
-<img src= "#" width="500px" height="150"/>
-</p>
-
-<br>
-
-`ps
 # Clonar o repositório
 $ git clone (https://github.com/Carolfernanda/projeto-delas-1.git)
 
