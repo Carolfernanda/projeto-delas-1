@@ -5,7 +5,7 @@
  
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/132357619/244519633-631f0e09-1ba9-41b8-b1ec-9ee7f98e1229.png" >
 
-<p align="center"> Senac | Porto Digital | Minas  <p>
+<p align="center"> Senac | Porto Digital M.I.N.As  <p>
  
 ## Este é um projeto Integrador do curso de aperfeiçoamento Backend | Turma 01  
 <br>
@@ -22,26 +22,27 @@
 <br>
   
   ## :dart: Objetivo
+
 A Plataforma Delas tem como objetivo principal fornecer um ambiente virtual de fácil utilização para empreendedoras expandirem seus negócios e alcançarem sucesso em suas jornadas empreendedoras. A plataforma permite que as empreendedoras cadastrem seus serviços e divulguem os produtos com os quais trabalham.<br>
  
   Através da Plataforma, as empreendedoras terão acesso a uma gama de recursos e funcionalidades que visam aprimorar suas interações com os clientes e fortalecer suas estratégias de negócios. A plataforma busca criar um ambiente seguro e confiável para o desenvolvimento de relacionamentos profissionais e o crescimento das empreendedoras.<br>
 
 Com uma interface intuitiva e amigável, visamos simplificar o processo de expansão dos negócios das empreendedoras, permitindo que elas se concentrem em oferecer serviços de qualidade e alcançar resultados positivos em suas atividades empreendedoras.
  
-### Perfil de Empreendedora:
+### 💡Perfil de Empreendedora:
+*****
  Cada empreendedora possui um perfil personalizado na plataforma, onde pode fornecer informações detalhadas sobre si mesma, sua empresa e seus objetivos. Esse perfil serve como uma vitrine virtual para apresentar suas habilidades, experiências e conquistas, ajudando a estabelecer uma presença profissional no mercado.<br>
-### Perfil de Cliente: 
+ 
+###  👥Perfil de Cliente: 
+*****
 Os clientes também podem criar um perfil na plataforma, fornecendo seus dados pessoais. Esses perfis de cliente permitem o acesso aos serviços oferecidos pelas empreendedoras e facilitam a pesquisa por categorias específicas por meio de filtros. Os clientes podem encontrar empreendedoras com base em suas necessidades e preferências, facilitando o processo de contratação de serviços.
  <br>
 
 <br>
-[Apresentação do Projeto Final](#)
-<br>
 <br>
  <h3> 📁 Arquitetura do Projeto </h3>
 <br>
-:pushpin: Lembre-se que a arquitetura ao final do projeto precisa ficar exatamente dessa maneira. 
-  
+ 
  ```
   
   📁projeto-delas
@@ -77,7 +78,7 @@ Os clientes também podem criar um perfil na plataforma, fornecendo seus dados p
    |- 📄 server.js
    |- 📄 README.md
  ```
-
+:pushpin: Lembre-se que a arquitetura ao final do projeto precisa ficar exatamente dessa maneira. 
   
   ##  :ledger: Tecnologias Utilizadas
 
@@ -100,7 +101,7 @@ Os clientes também podem criar um perfil na plataforma, fornecendo seus dados p
 | `nodemon`    | Dependência que observa as atualizações realizadas nos documentos para rodar o servidor automaticamente.|
 <br>
 
-📝 [Link para a documentação]:(https://github.com/Carolfernanda/projeto-delas-1.git)
+📝 [Link para a documentação:](https://github.com/Carolfernanda/projeto-delas-1.git)
 
 
 
@@ -117,7 +118,7 @@ Os clientes também podem criar um perfil na plataforma, fornecendo seus dados p
 
 `ps
 # Clonar o repositório
-$ git clone (https://github.com/Carolfernanda/projeto-delas.git)
+$ git clone (https://github.com/Carolfernanda/projeto-delas-1.git)
 
 # Entrar na pasta do repositório
 $ cd projeto-delas
@@ -212,7 +213,7 @@ $ npm start
 #### [Vanessa Farias](https://github.com/Vr-Farias)
 
 
-Projeto criado com a orientação e cuidado da Professora [Tereza Oliveira](https://github.com/devcode25))!<br>
+Projeto criado com a orientação e cuidado da Professora [Tereza Oliveira](https://github.com/devcode25)!<br>
 
 <span align="center">
 
