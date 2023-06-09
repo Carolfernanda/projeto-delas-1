@@ -2,8 +2,12 @@
 const mongoose= require ("mongoose");
 
 const empreendedoraSchema = new mongoose.Schema(
+<<<<<<< HEAD
     {
         
+=======
+    {        
+>>>>>>> 1f79b61812291c75f30d8abf205112cde1fb0418
         nomeDaEmpreendedora: { type: String, required: true },
         nomeDoEmpreendimento: { type: String, required: true },
         cpfCnpj: { type: String, required: true },        

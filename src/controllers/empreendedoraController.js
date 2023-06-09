@@ -8,6 +8,31 @@ class EmpreendedoraController {
         })
     }
 
+    static getEmpreendedoraById = (req, res) => {
+        const id = req.params.id;
+
+        empreendedoras.findById(id, (err, empreendedoras) => {
+            if (err) {
+                res.status(400).send({ message: `${err.message} - Id da Empreendedora não localizado.` })
+            } else {
+                res.status(200).send(empreendedoras);
+            }
+        })
+    }
+
+
+    static getByEmpreendimento = (req, res) => {
+        const parametros = req.query
+        empreendedoras.find(parametros, function (err, empreendedoras) {
+            if (err) {
+                res.status(500).send({ message: err.message })
+            } else {
+
+                res.status(200).send(empreendedoras);
+            }
+        })
+    }
+
     static createEmpreendedoras = (req, res) => {
         let empreendedora = new empreendedoras(req.body);
 
@@ -45,20 +70,9 @@ class EmpreendedoraController {
             }
         })
     }
-
-    static getEmpreendedoraById = (req, res) => {
-        const id = req.params.id;
-
-        autores.findById(id, (err, autores) => {
-            if (err) {
-                res.status(400).send({ message: `${err.message} - Id do Autor não localizado.` })
-            } else {
-                res.status(200).send(autores);
-            }
-        })
-    }
-
 };
+
+
 
 module.exports = EmpreendedoraController;
 

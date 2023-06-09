@@ -8,6 +8,8 @@ router.post("/", EmpreendedoraController.createEmpreendedoras)
 router.put("/:id", EmpreendedoraController.updateEmpreendedoras)
 router.delete("/:id", EmpreendedoraController.deleteEmpreendedoras)
 router.get("/:id", EmpreendedoraController.getEmpreendedoraById)
+router.get("/:id", EmpreendedoraController.getByEmpreendimento)
+
 
 
 module.exports = router;
