@@ -16,7 +16,7 @@ const empreendedoraSchema = new mongoose.Schema(
         tag: { type: Array, required: true},
         endereco: { type: Object, required: true },
         descricao: { type: String, required: true },
-        youLiked: { type: Boolean, required: true },
+        youLiked: { type: Boolean }
     }
 )
 
